@@ -1,0 +1,24 @@
+{
+  "name": "orchestrator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcossantana2312/software-architecture-orchestrator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marcossantana2312/software-architecture-orchestrator/issues"
+  },
+  "homepage": "https://github.com/marcossantana2312/software-architecture-orchestrator#readme",
+  "dependencies": {
+    "apollo-server": "^2.9.12",
+    "graphql": "^14.5.8"
+  }
+}
