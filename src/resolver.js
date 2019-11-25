@@ -2,11 +2,12 @@ import * as jwt from "jsonwebtoken";
 import typeDefs from "./typeDefs";
 import { makeExecutableSchema } from "apollo-server";
 import { resolvers as TaskResolver } from "./modules/task";
+import { resolvers as UserResolver } from "./modules/user";
 
 
 const schema = makeExecutableSchema({
     typeDefs,
-    resolvers: [TaskResolver]
+    resolvers: [TaskResolver, UserResolver]
 })
 
 
