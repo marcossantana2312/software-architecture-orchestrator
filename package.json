@@ -20,7 +20,7 @@
   "homepage": "https://github.com/marcossantana2312/software-architecture-orchestrator#readme",
   "dependencies": {
     "apollo-server": "^2.9.12",
-    "axios": "^0.19.0",
+    "axios": "^0.21.1",
     "dotenv": "^8.2.0",
     "esm": "^3.2.25",
     "graphql": "^14.5.8",
